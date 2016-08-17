@@ -60,7 +60,7 @@ public class TeleportCommand extends BasePortyCommand {
                 return;
             }
 
-            String targetName = args[0];
+            String targetName = args[1];
             final ProxiedPlayer targetPlayer = ProxyServer.getInstance().getPlayer(fromName);
 
             if (targetPlayer == null) {
